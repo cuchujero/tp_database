@@ -21,6 +21,22 @@
   
 ---
 
+###  Valores de archivo .env ### 
+
+TEST_DB_USERNAME=jero12345
+TEST_DB_PASSWORD=Arturo123!
+TEST_DB_DATABASE=jero12345_bd_proy
+TEST_DB_HOST=mysql-jero12345.alwaysdata.net
+TEST_DB_DIALECT=mysql
+TEST_DB_PORT=3306
+
+PRODUCTION_DB_USERNAME=jero12345
+PRODUCTION_DB_PASSWORD=Arturo123!
+PRODUCTION_DB_DATABASE=jero12345_bd_proy
+PRODUCTION_DB_HOST=mysql-jero12345.alwaysdata.net
+PRODUCTION_DB_DIALECT=mysql
+PRODUCTION_DB_PORT=3306
+
 ### Documentación ### 
 
 **Pruebas API**
