@@ -3,7 +3,7 @@ const bd = require('../database/models');
 const services = {
 
     getPurchases: (purchaseId) => {
-        return purchaseId? bd.Purchase.findByPk(purchaseId, {include:[{association:'card'},{association:'paymentSummary'}]}) : bd.Purchase.findAll({include:[{association:'card'},{association:'paymentSummary'}]});
+        return purchaseId? bd.Purchase.findByPk(purchaseId, {include:[{association:'card'},{association:'paymentSummary'}, { association: 'quotas' }]}) : bd.Purchase.findAll({include:[{association:'card'},{association:'paymentSummary'}, { association: 'quotas' }]});
     },
     
     createPurchase: async (purchaseData) => {
