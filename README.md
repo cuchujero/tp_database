@@ -1,12 +1,10 @@
 
-## TP de diseño de base de datos: <br> Plataforma bancaria en base de datos relacional ##
+## TP Final de Diseño de Bases de Datos -UNLP- 2023: <br> Sistema de registro de pagos con tarjetas (en base de datos relacional) ##
 
 ### Integrantes ###
 
 - Julieta Screpnik julietascrepnik@gmail.com
-
 - Jeronimo Sola cuchujero@hotmail.com
-
 - Raul Sanchez fueguino84@gmail.com
 
 ---  
@@ -16,12 +14,11 @@
 **Comando para inicializar y ejecutar el proyecto**
 
 - npm install
-
 - npm start
   
 ---
 
-###  Valores de archivo .env ### 
+### Valores de archivo .env ### 
 
 - TEST_DB_USERNAME: jero12345
 - TEST_DB_PASSWORD: Arturo123!
