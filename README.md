@@ -38,7 +38,7 @@
 
 ### Documentación ### 
 
-**Pruebas API**
+**Tests HTTP**
   
 https://documenter.getpostman.com/view/13819778/2sA35G42Pn
 
